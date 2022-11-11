@@ -2,7 +2,7 @@ package problemdomain;
 
 import java.io.IOException;
 
-public interface IStorage {
+public interface Storage {
     void updateGameData(SudokuGame game) throws IOException;
     SudokuGame getGameData() throws IOException;
 }
